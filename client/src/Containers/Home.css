@@ -1,0 +1,11 @@
+.container {
+  position: absolute !important;
+  padding: 50px;
+  left: 50%;
+  top: 50%;
+  display: none;
+}
+
+.root {
+  display: none;
+}

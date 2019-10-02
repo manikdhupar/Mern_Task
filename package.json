@@ -1,0 +1,23 @@
+{
+  "name": "bt",
+  "version": "1.0.0",
+  "description": "backendt",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-watch": "nodemon app.js",
+    "dev": "concurrently \"npm run start-watch\" \"cd client && npm start\""
+  },
+  "author": "manik dhupar",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  }
+}
