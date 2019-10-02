@@ -40,26 +40,26 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Collapse from '@material-ui/core/Collapse';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
-import SendIcon from '@material-ui/icons/Send';
+// import InboxIcon from '@material-ui/icons/MoveToInbox';
+// import DraftsIcon from '@material-ui/icons/Drafts';
+// import SendIcon from '@material-ui/icons/Send';
 import Paper from '@material-ui/core/Paper';
-import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
+// import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
 import Card from '../Components/Card';
-import StarBorder from '@material-ui/icons/StarBorder';
+// import StarBorder from '@material-ui/icons/StarBorder';
 
-const classes = {
-  root: {
-    width: '100%',
-    maxWidth: 360
-  },
-  nested: {
-    paddingLeft: 30
-  }
-};
+// const classes = {
+//   root: {
+//     width: '100%',
+//     maxWidth: 360
+//   },
+//   nested: {
+//     paddingLeft: 30
+//   }
+// };
 
 // const useStyles = makeStyles(theme => ({
 //   root: {

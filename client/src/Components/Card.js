@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Input from '../Containers/Input';
-import { makeStyles } from '@material-ui/core/styles';
+// import { Link } from 'react-router-dom';
+// import Input from '../Containers/Input';
+// import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -26,7 +26,7 @@ const classes = {
 };
 
 export default function SimpleCard(props) {
-  const bull = <span style={classes.bullet}>•</span>;
+  // const bull = <span style={classes.bullet}>•</span>;
 
   return (
     <Card className={classes.card}>

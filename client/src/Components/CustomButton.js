@@ -20,7 +20,7 @@ const styles = {
 
 function ContainedButtons(props) {
   const path = props.path;
-  const { classes } = props;
+  // const { classes } = props;
   return (
     <div>
       <Button variant="contained" color="primary" style={styles.button}>
