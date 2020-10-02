@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Question = require('../models/question');
 
+//Get Request
 router.get('/forms', (req, res, next) => {
   Question.find()
     .then(questions => {
@@ -15,6 +16,8 @@ router.get('/forms', (req, res, next) => {
       next(err);
     });
 });
+
+//Post Request
 router.post('/forms', (req, res, next) => {
   console.log('body', req.body);
   console.log(typeof req.body);
